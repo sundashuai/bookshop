@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 配置AdminServiceImpl的清单 -->
+	<bean id="adminService" class="cn.itcast.service.impl.AdminServiceImpl"></bean>
+	<!-- <bean id="adminService" class="cn.itcast.service.impl.AdminServiceImpl2"></bean> -->
+
+	<bean id="adminDao" class="cn.itcast.dao.impl.AdminDaoImplMySql"></bean>
+	<!-- <bean id="adminDao" class="cn.itcast.dao.impl.AdminDaoImplOracle"></bean> -->
+
+</beans>
